@@ -112,16 +112,6 @@ def ddeint(func, gs, tt, fargs=None):
     Examples
     ---------
     
-    We will solve the delayed Lotka-Volterra system defined as
-    
-        For t < 0:
-        x(t) = 1+t
-        y(t) = 2-t
-    
-        For t >= 0:
-        dx/dt =  0.5* ( 1- y(t-d) )
-        dy/dt = -0.5* ( 1- x(t-d) )
-    
     The delay ``d`` is a tunable parameter of the model.
     >>> import numpy as np
     >>> from ddeint import ddeint
