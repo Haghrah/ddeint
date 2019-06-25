@@ -41,11 +41,6 @@ This example is also solved using the Matlab function, dde23. The matlab output 
 
 <img src="/images/dde23.png" width="256">
 
-Licence
---------
-
-Public domain. Everyone is welcome to contribute!
-
 Installation
 --------------
 
