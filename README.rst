@@ -9,7 +9,7 @@ How to use new version?
 ------------------------
 Let our system equation be as below:
 
-![Equation](https://github.com/Haghrah/ddeint/blob/master/images/Ex1_Equation.png)
+<img src="/images/Ex1_Equation.png" width="128">
 
 Licence
 --------
