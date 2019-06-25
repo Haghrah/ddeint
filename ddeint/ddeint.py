@@ -64,11 +64,11 @@ class dde(scipy.integrate.ode):
     integration step.
     """
 
-    def __init__(self, f):
+    def __init__(self, f, jac=None):
 
         def f2(t,y,args):
             return f(self.Y, t, *args)
-        scipy.integrate.ode.__init__(self, f2)
+        scipy.integrate.ode.__init__(self, f2, jac)
         self.set_f_params(None)
 
     def integrate(self, t, step=0, relax=0):
@@ -147,4 +147,3 @@ def ddeint(func, gs, tt, fargs=None):
     results = [np.array([g(tt[0]) for g in gs])]
     results.extend(dde_.integrate(dde_.t + dt) for dt in np.diff(tt))
     return np.array(results)
-
