@@ -14,6 +14,9 @@ Let our system equation be as below:
 As it can be seen three history functions for each state variable is needed. Also, there is two delay values 1 and 0.2 in the equations. In order to write the model function we should write the code below:
 
 ```python
+from ddeint import ddeint
+from numpy import linspace, array
+
 def model(Y, t):
     y2 = Y[1](t)
     y1d = Y[0](t-1)
