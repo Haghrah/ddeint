@@ -7,7 +7,9 @@ First of all, I would like to say "Thanks!" to @Zulko for developing the ddeint.
 
 How to use new version?
 ------------------------
+Let our system equation be as below:
 
+![Equation](https://raw.githubusercontent.com/Haghrah/ddeint/master/images/Ex1_Equation.png)
 
 Licence
 --------
