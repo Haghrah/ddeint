@@ -47,6 +47,6 @@ This example is also solved using the Matlab function, dde23. The matlab output 
 Installation
 --------------
 
-ddeint can be installed by unzipping the source code in one directory and using this command: ::
+ddeint can be installed by unzipping the source code in one directory and using this command:
 
     (sudo) python setup.py install
