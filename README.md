@@ -40,7 +40,7 @@ The output of the example system is represented below:
 
 <img src="/images/ddeint.png" width="256">
 
-This example is also solved using the Matlab function, dde23. The matlab output is also available here which approves the same results:
+This example is also solved using the Matlab function, dde23. The matlab output is also available here which approves the results:
 
 <img src="/images/dde23.png" width="256">
 
