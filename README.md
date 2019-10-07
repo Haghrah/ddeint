@@ -11,7 +11,7 @@ Let our system equation be as below:
 
 <img src="/images/Ex1_Equation.png" width="256">
 
-As it can be seen three history functions for each state variable is needed. Also, there is two delay values 1 and 0.2 in the equations. In order to write the model function we should write the code below:
+As it can be seen three history functions for state variables are needed. Also, there are two delay values 1 and 0.2 in the equations. In order to write the model function we can use the code below:
 
 ```python
 from ddeint import ddeint
