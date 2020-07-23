@@ -7,11 +7,11 @@ First of all, I would like to say "Thanks!" to @Zulko for developing the ddeint.
 
 An example
 -----------
-Let our system equation be as below:
+Let equations of the system be as below:
 
 <img src="/images/Ex1_Equation.png" width="256">
 
-As it can be seen three history functions for state variables are needed. Also, there are two delay values 1 and 0.2 in the equations. In order to write the model function we can use the code below:
+As it can be seen, three history functions for state variables are needed. Also, there are two delay values 1 and 0.2 in the equations. In order to write the model function we can use the code below:
 
 ```python
 from ddeint import ddeint
